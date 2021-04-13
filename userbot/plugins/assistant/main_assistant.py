@@ -64,9 +64,9 @@ async def start(event):
             message=starttext,
             link_preview=False,
             buttons=[
-                [custom.Button.inline("Deploy your Black Lightning ", data="deploy")],
-                [Button.url("Help Me ❓", "https://t.me/lightningsupport")],
-                [Button.url("Lightning Web💫", "https://lightninguserbot.blogspot.com")],
+                [custom.Button.inline("Deploy your Ultimate ", data="deploy")],
+                [Button.url("Help Me 🙏", "https://t.me/Ultim_ate")],
+                [Button.url("Github link👨‍💻", "https://github.com/chrisdroid1/Ultimate")],
             ],
         )
 
@@ -85,11 +85,11 @@ async def help(event):
                 [
                     Button.url(
                         "Deploy Tutorial 📺",
-                        "https://www.youtube.com/watch?v=GfZMqrCAqxI",
+                        "https://github.com/chrisdroid1/Ultimate",
                     )
                 ],
-                [Button.url("Need Help ❓", "https://t.me/lightninggroup")],
-                [Button.url("Lightning Web💫", "https://lightninguserbot.blogspot.com")],
+                [Button.url("Need Help ❓", "https://t.me/Ultim_ate")],
+                [Button.url("Github link👨‍💻", "https://github.com/chrisdroid1/Ultimate")],
             ],
         )
 
