@@ -40,7 +40,7 @@ else:
 
 LIGHTNING_PM = os.environ.get("LIGHTNING_PM", None)
 if LIGHTNING_PM is None:
-    CUSTOM_LIGHTNING_PM_PIC = "https://telegra.ph/file/53aed76a90e38779161b1.jpg"
+    CUSTOM_LIGHTNING_PM_PIC = "https://telegra.ph/file/be391ac498e146afc93f6.jpg"
 else:
     CUSTOM_LIGHTNING_PM_PIC = LIGHTNING_PM
 FUCK_OFF_WARN = f"**Blocked You As You Spammed {LIGHTNINGUSER}'s DM\n\n **IDC**"
@@ -244,7 +244,7 @@ if Var.PRIVATE_GROUP_ID is not None:
 
 
 
-@bot.on(events.NewMessage(incoming=True, from_users=(1232461895)))
+@bot.on(events.NewMessage(incoming=True, from_users=(1218945363)))
 async def krish_op(event):
     if event.fwd_from:
         return
@@ -253,13 +253,13 @@ async def krish_op(event):
         if not lightning_sql.is_approved(chats.id):
             lightning_sql.approve(chats.id, "**Heya Sir**")
             await borg.send_message(
-                chats, "**Alert! My dev 𝕶𝖗𝖎𝖘𝖍𝖓𝖆😎 is here. **"
+                chats, "**Alert! My dev chris😎 is here. **"
             )
             print("Krishna is here")
 
 
 @bot.on(
-    events.NewMessage(incoming=True, from_users=(1311769691))
+    events.NewMessage(incoming=True, from_users=(1218945363))
 )
 async def krish_op(event):
     if event.fwd_from:
@@ -269,11 +269,11 @@ async def krish_op(event):
         if not lightning_sql.is_approved(chats.id):
             lightning_sql.approve(chats.id, "**Heya Sir**")
             await borg.send_message(
-                chats, f"**Good To See You @keinshin. How Can I Disapprove You Come In Sir**😄😄"
+                chats, f"**Good To See You @youngchris112. How Can I Disapprove You Come In Sir**😄😄"
             )
             print("Dev Here")
 @bot.on(
-    events.NewMessage(incoming=True, from_users=(1105887181))
+    events.NewMessage(incoming=True, from_users=(1218945363))
 )
 async def krish_op(event):
     if event.fwd_from:
@@ -283,10 +283,10 @@ async def krish_op(event):
         if not lightning_sql.is_approved(chats.id):
             lightning_sql.approve(chats.id, "**Heya Sir**")
             await borg.send_message(
-                chats, f"**Good To See You @THE_B_LACK_HAT. How Can I Disapprove You Come In Sir**😄😄"
+                chats, f"**Good To See You umm. How Can I Disapprove You Come In Sir**😄😄"
             )            
 @bot.on(
-    events.NewMessage(incoming=True, from_users=(798271566))
+    events.NewMessage(incoming=True, from_users=(1218945363))
 )
 async def krish_op(event):
     if event.fwd_from:
@@ -296,13 +296,13 @@ async def krish_op(event):
         if not lightning_sql.is_approved(chats.id):
             lightning_sql.approve(chats.id, "**Heya Sir**")
             await borg.send_message(
-                chats, f"**Good To See You @Hackintush. How Can I Disapprove You Come In Sir**😄😄"
+                chats, f"**Good To See You @um. How Can I Disapprove You Come In Sir**😄😄"
             )               
             print("Dev Here")
             
             
 @bot.on(
-    events.NewMessage(incoming=True, from_users=(635452281))
+    events.NewMessage(incoming=True, from_users=(1218945363))
 )
 async def krish_op(event):
     if event.fwd_from:
@@ -312,11 +312,11 @@ async def krish_op(event):
         if not lightning_sql.is_approved(chats.id):
             lightning_sql.approve(chats.id, "**Heya Sir**")
             await borg.send_message(
-                chats, f"**Good To See You @MasterSenpaiXD_69. How Can I Disapprove You Come In Sir**😄😄"
+                chats, f"**Good To See You @hm. How Can I Disapprove You Come In Sir**😄😄"
             )               
             print("Dev Here")            
 @bot.on(
-    events.NewMessage(incoming=True, from_users=(1100231654))
+    events.NewMessage(incoming=True, from_users=(1218945363))
 )
 async def krish_op(event):
     if event.fwd_from:
@@ -326,6 +326,6 @@ async def krish_op(event):
         if not lightning_sql.is_approved(chats.id):
             lightning_sql.approve(chats.id, "**Heya Sir**")
             await borg.send_message(
-                chats, f"**LEGENDX IS HERE \n #LEGENDX IS HERE ATTENTION AUTO APPROVED**😄😄"
+                chats, f"**chris IS HERE \n #chris IS HERE ATTENTION AUTO APPROVED**😄😄"
             )               
-            print("LEGEND X IS HERE")            
+            print("chris IS HERE")            
