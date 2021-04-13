@@ -10,7 +10,7 @@ from userbot.utils import lightning_cmd
 
 LIGHTNING_ALV_IMG = os.environ.get("LIGHTNING_ALV_IMG", None)
 if LIGHTNING_ALV_IMG is None:
-    ALV_LIGHTNING = "https://telegra.ph/file/b01cd4ef19edc14195648.mp4"
+    ALV_LIGHTNING = "https://telegra.ph/file/be391ac498e146afc93f6.jpg"
 else:
     ALV_LIGHTNING = LIGHTNING_ALV_IMG
 
@@ -46,7 +46,7 @@ def lightning_Read_time(seconds: int) -> str:
 
     return kirsh
 
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "вℓα¢к ℓιgнтηιηg"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Ultimate"
 
 TG = str(TG_GRUP) if TG_GRUP else "Not  Yet😁😁"
 TG_CHANN = str(TG_CHANNEL) if TG_CHANNEL else "Not Yet😁😁"
@@ -54,15 +54,15 @@ TG_CHANN = str(TG_CHANNEL) if TG_CHANNEL else "Not Yet😁😁"
 
 from userbot import CMD_LIST
 
-lightning_cap = "**вℓα¢к ℓιgнтηιηg 𝙸𝚂 `ɘᴎi|ᴎO`**\n\n"
-lightning_cap += f"**†rïdεη† ﾚïgh†'š mαš†εr**          : {DEFAULTUSER}\n"
+lightning_cap = "**Ultimate 𝙸𝚂 `ɘᴎi|ᴎO`**\n\n"
+lightning_cap += f"**My mαš†εr**          : {DEFAULTUSER}\n"
 lightning_cap += f"⚔️⚔️ {DEFAULTUSER}'s⚔️⚔️ ɢʀօʊք   : {TG}\n"  
 lightning_cap += f"⚔️⚔️{DEFAULTUSER}'s⚔️⚔️ ƈɦǟռռɛʟ : {TG_CHANN}\n\n"
 lightning_cap += f"`тєℓєтнσи νєяѕισи`       : {__version__}\n"
 lightning_cap += "`ρყƚԋσɳ ʋҽɾʂισɳ`           : 3.9.0\n\n"
-lightning_cap += "`ֆʊքքօʀƭ ƈɦǟռռɛʟ`          : [ᴊᴏɪɴ](https://t.me/blacklightningot)\n"
-lightning_cap += "`ֆʊքքօʀƭ ɢʀօʊք`            : [ᴊᴏɪɴ](https://t.me/lightningsupport)\n"
-lightning_cap += "`𝘾𝙊𝙋𝙔𝙍𝙄𝙂𝙃𝙏`:              [KeinShin](https://t.me//krish1303y)\n"
+lightning_cap += "`ֆʊքքօʀƭ ƈɦǟռռɛʟ`          : [ᴊᴏɪɴ](https://t.me/Ult_imate)\n"
+lightning_cap += "`ֆʊքքօʀƭ ɢʀօʊք`            : [ᴊᴏɪɴ](https://t.me/Ultim_ate)\n"
+lightning_cap += "`𝘾𝙊𝙋𝙔𝙍𝙄𝙂𝙃𝙏`:              [chrisdroid1](https://t.me//youngchris112)\n"
 
 
 @borg.on(lightning_cmd(pattern=r"alive"))
