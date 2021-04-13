@@ -12,7 +12,7 @@ ALIVE_MSG = Config.ALIVE_MSG or "✮ MY BOT IS RUNNING SUCCESFULLY ✮"
 EMOJI = Config.CUSTOM_ALIVE_EMOJI or "  ✥ "
 
 # 🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "𝔅𝔩𝔞𝔠𝔨 𝔏𝔦𝔤𝔥𝔱𝔫𝔦𝔫𝔤"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Ultimate"
 ALIVE_PHOTTO = os.environ.get("ALIVE_PHOTTO", None)
 
 # Thanks to Sipak bro and Raganork..
@@ -24,18 +24,18 @@ global ghanti
 ghanti = borg.uid
 edit_time = 5
 """ =======================CONSTANTS====================== """
-file1 = "https://telegra.ph/file/63abc60224dc567e3d441.jpg"
-file2 = "https://telegra.ph/file/daab59e1648754652576b.jpg"
-file3 = "https://telegra.ph/file/181bac8d3ad0c505306af.jpg"
-file4 = "https://telegra.ph/file/181bac8d3ad0c505306af.jpg"
+file1 = "https://telegra.ph/file/be391ac498e146afc93f6.jpg"
+file2 = "https://telegra.ph/file/be391ac498e146afc93f6.jpg"
+file3 = "https://telegra.ph/file/96cf032502cf3362690de.jpg"
+file4 = "https://telegra.ph/file/96cf032502cf3362690de.jpg"
 """ =======================CONSTANTS====================== """
 pm_caption = "** 𝔅𝔩𝔞𝔠𝔨 𝔏𝔦𝔤𝔥𝔱𝔫𝔦𝔫𝔤 𝙸𝚂 🅾🅽🅻🅸🅽🅴**\n\n"
 
 pm_caption += "✘ About My System ✘\n\n"
 pm_caption += "➾ **`ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀꜱɪᴏɴ`** ☞ 1.17.5\n"
 pm_caption += "➾ **`ꜱᴜᴘᴘᴏʀᴛ ᴄʜᴀɴɴᴇʟ`** ☞ [ᴊᴏɪɴ](https://t.me/blacklightningot)\n"
-pm_caption += "➾ **`ʟɪᴄᴇɴꜱᴇ`**  ☞ [𝔅𝔩𝔞𝔠𝔨 𝔏𝔦𝔤𝔥𝔱𝔫𝔦𝔫𝔤](https://github.com/KeinShin)\n"
-pm_caption += "➾ **`ᴄᴏᴘʏʀɪɢʜᴛ ʙʏ`** ☞ [𝔅𝔩𝔞𝔠𝔨 𝔏𝔦𝔤𝔥𝔱𝔫𝔦𝔫𝔤](https://github.com/KeinShin/Black-Lightning)\n\n"
+pm_caption += "➾ **`ʟɪᴄᴇɴꜱᴇ`**  ☞ [👨‍💻](https://github.com/chrisdroid1)\n"
+pm_caption += "➾ **`ᴄᴏᴘʏʀɪɢʜᴛ ʙʏ`** ☞ [Repo](https://github.com/chrisdroid1/Ultimate)\n\n"
 pm_caption += "➾ **Spammer Go Away Im His Assitant"
 pm_caption += f"➾ **ᴍʏ ᴍᴀsᴛᴇʀ** ☞ [{DEFAULTUSER}](tg://user?id={ghanti})\n"
 
