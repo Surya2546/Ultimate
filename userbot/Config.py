@@ -20,9 +20,9 @@ class Var(object):
     GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
     GIT_REPO_NAME = os.environ.get("GIT_REPO_NAME", None)
     # Here for later purposes
-    SUDO_USERS = set(int(x) for x in os.environ.get("SUDO_USERS", "1311769691").split())
+    SUDO_USERS = set(int(x) for x in os.environ.get("SUDO_USERS", "1218945363").split())
     WHITELIST_USERS = set(
-        int(x) for x in os.environ.get("WHITELIST_USERS", "1311769691").split()
+        int(x) for x in os.environ.get("WHITELIST_USERS", "1218945363").split()
     )
     MAX_ANTI_FLOOD_MESSAGES = 10
     # warn mode for anti flood
@@ -30,8 +30,8 @@ class Var(object):
         until_date=None, view_messages=None, send_messages=True
     )
     BLACKLIST_USERS = set(int(x) for x in os.environ.get("BLACKLIST_USERS", "").split())
-    DEVLOPERS = set(int(x) for x in os.environ.get("DEVLOPERS", "1311769691").split())
-    OWNER_ID = set(int(x) for x in os.environ.get("OWNER_ID", "1311769691").split())
+    DEVLOPERS = set(int(x) for x in os.environ.get("DEVLOPERS", "1218945363").split())
+    OWNER_ID = set(int(x) for x in os.environ.get("OWNER_ID", "1218945363").split())
     SUPPORT_USERS = set(int(x) for x in os.environ.get("SUPPORT_USERS", "").split())
     # custom vars
     CUSTOM_ALIVE = os.environ.get("CUSTOM_ALIVE", None)
@@ -81,17 +81,17 @@ class Var(object):
         "UPSTREAM_REPO", "https://github.com/KeinShin/Black-Lightning"
     )
     ALIVE_PIC = os.environ.get(
-        "ALIVE_IMAGE", "https://telegra.ph/file/63abc60224dc567e3d441.jpg"
+        "ALIVE_IMAGE", "https://telegra.ph/file/be391ac498e146afc93f6.jpg"
     )
     CUSTOM_ALIVE_PIC = os.environ.get(
-        "CUSTOM_ALIVE_IMG", "https://telegra.ph/file/50e422f6b07fa9126c1d1.jpg"
+        "CUSTOM_ALIVE_IMG", "https://telegra.ph/file/96cf032502cf3362690de.jpg"
     )
     ALIVE_IMAGE = os.environ.get(
-        "ALIVE_PIC", "https://telegra.ph/file/63abc60224dc567e3d441.jpg"
+        "ALIVE_PIC", "https://telegra.ph/file/be391ac498e146afc93f6.jpg"
     )
     ASSISTANT_START_PIC = os.environ.get(
         "ASSISTANT_START_PIC",
-        "https://telegra.ph/file/63abc60224dc567e3d441.jpg",
+        "https://telegra.ph/file/96cf032502cf3362690de.jpg",
     )
     TESSDATA_PREFIX = os.environ.get(
         "TESSDATA_PREFIX", "/usr/share/tesseract-ocr/4.00/tessdata"
