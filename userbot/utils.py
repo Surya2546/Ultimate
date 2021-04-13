@@ -791,9 +791,9 @@ def start_assistant(shortname):
         mod.only_pvt = only_pvt()
         spec.loader.exec_module(mod)
         sys.modules[
-            "userbot.plugins.assistant" + "Initialising Lightning" + shortname
+            "userbot.plugins.assistant" + "Initialising Ultimate" + shortname
         ] = mod
-        sedprint.info("Lightning Has imported " + shortname)
+        sedprint.info("Ultimate Has imported " + shortname)
 
 
 def load_assistant(shortname):
@@ -809,8 +809,8 @@ def load_assistant(shortname):
         spec = importlib.util.spec_from_file_location(name, path)
         mod = importlib.util.module_from_spec(spec)
         spec.loader.exec_module(mod)
-        print("Initialising Lightning.")
-        print("Lightning - Imported " + shortname)
+        print("Initialising Ultimate.")
+        print("Ultimate - Imported " + shortname)
     else:
         import importlib
         import sys
@@ -823,4 +823,4 @@ def load_assistant(shortname):
         mod.tgbot = bot.tgbot
         spec.loader.exec_module(mod)
         sys.modules["userbot.plugins.assistant." + shortname] = mod
-        print("Lightning Has imported " + shortname)
+        print("Ultimate Has imported " + shortname)
