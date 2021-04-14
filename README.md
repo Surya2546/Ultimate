@@ -42,17 +42,23 @@ This is a userbot made for telegram. I made this userbot with help of all other 
 [![Run on Repl.it](https://repl.it/badge/github/chrisdroid1/Ultimate&theme=midnight-purple)](https://replit.com/@JakuJaka/Ultimate)
 
 # termux_string
-Run these codes
 
-termux-setup-storage
+Down Load Termux From Playstore Then
+The Ppl Having String Session Problem Do 👇
 
-pkg install python git openssl wget -y 
+1.apt-get update
 
-pip install telethon 
+2.apt-get upgrade -y
 
-https://raw.githubusercontent.com/chrisdroid1/Ultimate/master/telesetup.py
+3.pkg upgrade -y
 
-python3 telesetup.py
+4.pkg install python wget -y
+
+5.wget https://raw.githubusercontent.com/chrisdroid1/Ultimate/master/telesetup.py
+
+6.pip3 install telethon
+
+7.python3 telesetup.py
 
 then give the details provided,copy the string ,paste in *Saved Messages*
 
