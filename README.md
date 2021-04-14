@@ -41,6 +41,20 @@ This is a userbot made for telegram. I made this userbot with help of all other 
 
 [![Run on Repl.it](https://repl.it/badge/github/chrisdroid1/Ultimate&theme=midnight-purple)](https://replit.com/@JakuJaka/Ultimate)
 
+# termux_string
+Run these codes
+
+termux-setup-storage
+
+pkg install python git openssl wget -y 
+
+pip install telethon 
+
+https://raw.githubusercontent.com/chrisdroid1/Ultimate/master/telesetup.py
+
+python3 telesetup.py
+
+then give the details provided,copy the string ,paste in *Saved Messages*
 
 # The Normal Way
 
