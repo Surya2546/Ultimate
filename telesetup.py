@@ -15,7 +15,7 @@ except BaseException:
     from telethon.sessions import StringSession
     from telethon.sync import TelegramClient
 ok = """ ____  ____  __  ____   __   _  _
-Thunder
+Ultimate 
 """
 print(ok)
 APP_ID = int(input("Enter APP ID here: \n"))
