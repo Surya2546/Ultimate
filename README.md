@@ -34,6 +34,7 @@ This is a userbot made for telegram. I made this userbot with help of all other 
 
 [![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/chrisdroid1/Ultimate)
 
+*VID TUTORIAL* ----- https://youtu.be/KRPoRfVq4XY
 
 # String
 
@@ -42,9 +43,6 @@ This is a userbot made for telegram. I made this userbot with help of all other 
 [![Run on Repl.it](https://repl.it/badge/github/chrisdroid1/Ultimate&theme=midnight-purple)](https://replit.com/@JakuJaka/Ultimate)
 
 # termux_string
-
-Down Load Termux From Playstore Then
-The Ppl Having String Session Problem Do 👇
 
 1.apt-get update
 
@@ -61,6 +59,8 @@ The Ppl Having String Session Problem Do 👇
 7.python3 telesetup.py
 
 then give the details provided,copy the string ,paste in *Saved Messages*
+
+vid tutorial _--- https://youtu.be/I8wQMNqpfq8
 
 # The Normal Way
 
