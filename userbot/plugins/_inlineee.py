@@ -184,7 +184,7 @@ async def _(event):
 
 BOT_MSG = os.environ.get("BOT_MSG", None)
 if BOT_MSG is None:
-    BOT_LIT = f"Hello Sir MySelf Black Lightning Here For  {LIGHTNINGUSER}'s Protection "
+    BOT_LIT = f"Hello Sir MySelf Ultimate Here For  {LIGHTNINGUSER}'s Protection "
 else:
     BOT_LIT = BOT_MSG   
 
