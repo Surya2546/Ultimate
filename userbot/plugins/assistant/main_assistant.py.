@@ -66,7 +66,7 @@ async def start(event):
             buttons=[
                 [custom.Button.inline("Deploy your Ultimate ", data="deploy")],
                 [Button.url("Help Me 🙏", "https://t.me/Ultim_ate")],
-                [Button.url("Github link👨‍💻", "https://github.com/chrisdroid1/Ultimate")],
+                [Button.url("tutorial vid👨‍💻", "https://youtu.be/KRPoRfVq4XY")],
             ],
         )
 
@@ -85,11 +85,11 @@ async def help(event):
                 [
                     Button.url(
                         "Deploy Tutorial 📺",
-                        "https://github.com/chrisdroid1/Ultimate",
+                        "https://youtu.be/KRPoRfVq4XY",
                     )
                 ],
                 [Button.url("Need Help ❓", "https://t.me/Ultim_ate")],
-                [Button.url("Github link👨‍💻", "https://github.com/chrisdroid1/Ultimate")],
+                [Button.url("tutorial vid 👨‍💻", "https://youtu.be/KRPoRfVq4XY")],
             ],
         )
 
