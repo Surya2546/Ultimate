@@ -282,7 +282,7 @@ async def _(event):
         await event.edit(animation_chars[i % 19])
 
 
-@borg.on(lightning_cmd(pattern=f"solarsystem", outgoing=True))And 
+@borg.on(lightning_cmd(pattern=f"solarsystem", outgoing=True))
 async def _(event):
     if event.fwd_from:
         return
