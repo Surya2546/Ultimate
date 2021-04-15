@@ -342,7 +342,7 @@ async def _(event):
          "`https://telegra.ph/file/397da1e39f349e3696e45.jpg`",
          "`https://telegra.ph/file/973e20f6003916f7d47b1.jpg`",
          "`https://telegra.ph/file/50aeb934af436730a3448.jpg`",
-         "**THANKYOU......**,
+         "**THANKYOU......**",
       ]
       for i in animation_ttl:
       await asyncio.sleep(animation_interval)
@@ -375,8 +375,8 @@ CMD_HELP.update(
      \n\n| ᴀɴɪᴍᴀᴛɪᴏɴ3 |: `.fleaveme`\
      \n**USAGE**: ` Animation plugin.`\
      \n\n| ᴀɴɪᴍᴀᴛɪᴏɴ3 |: `.dump`\
-     \n**USAGE**:  `Garbage Animation`"
-     \n\nanimaton1:   `.anipic`\
-     \n\n**USAGE**:   `Anime Pictures`\
+     \n**USAGE**:  `Garbage Animation`
+     \n\nanimaton1: `.anipic`\
+     \n\n**USAGE**: `Anime Pictures`\"
     }
 )
