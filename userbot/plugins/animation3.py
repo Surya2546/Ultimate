@@ -376,7 +376,6 @@ CMD_HELP.update(
      \n**USAGE**: ` Animation plugin.`\
      \n\n| ᴀɴɪᴍᴀᴛɪᴏɴ3 |: `.dump`\
      \n**USAGE**:  `Garbage Animation`
-     \n\nanimaton1: `.anipic`\
-     \n\n**USAGE**: `Anime Pictures`\"
+     \n\n| ᴀɴɪᴍᴀᴛɪᴏɴ3 `.anipic`"
     }
 )
