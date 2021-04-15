@@ -375,7 +375,7 @@ CMD_HELP.update(
      \n\n| ᴀɴɪᴍᴀᴛɪᴏɴ3 |: `.fleaveme`\
      \n**USAGE**: ` Animation plugin.`\
      \n\n| ᴀɴɪᴍᴀᴛɪᴏɴ3 |: `.dump`\
-     \n**USAGE**:  `Garbage Animation`
+     \n**USAGE**:  `Garbage Animation`\
      \n\n| ᴀɴɪᴍᴀᴛɪᴏɴ3 `.anipic`"
     }
 )
