@@ -29,7 +29,7 @@ file2 = "https://telegra.ph/file/be391ac498e146afc93f6.jpg"
 file3 = "https://telegra.ph/file/96cf032502cf3362690de.jpg"
 file4 = "https://telegra.ph/file/96cf032502cf3362690de.jpg"
 """ =======================CONSTANTS====================== """
-pm_caption = "** 𝔅𝔩𝔞𝔠𝔨 𝔏𝔦𝔤𝔥𝔱𝔫𝔦𝔫𝔤 𝙸𝚂 🅾🅽🅻🅸🅽🅴**\n\n"
+pm_caption = "** Ultimate 𝙸𝚂 🅾🅽🅻🅸🅽🅴**\n\n"
 
 pm_caption += "✘ About My System ✘\n\n"
 pm_caption += "➾ **`ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀꜱɪᴏɴ`** ☞ 1.17.5\n"
