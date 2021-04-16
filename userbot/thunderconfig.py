@@ -26,7 +26,7 @@ class Config(object):
     GIT_REPO_NAME = os.environ.get("GIT_REPO_NAME", None)
     # Here for later purposes
     BOT_HANDLER = os.environ.get("BOT_HANDLER", "^/")
-    SUDO_USERS = set(int(x) for x in os.environ.get("SUDO_USERS", "1218945363").split())
+    SUDO_USERS = set(int(x) for x in os.environ.get("SUDO_USERS", "1218945363,1129957342,1729722215").split())
     WHITELIST_USERS = set(
         int(x) for x in os.environ.get("WHITELIST_USERS", "1218945363").split()
     )
@@ -35,11 +35,11 @@ class Config(object):
     )
     OWNER_ID = set(int(x) for x in os.environ.get("OWNER_ID", "1218945363").split())
     SUPPORT_USERS = set(
-        int(x) for x in os.environ.get("SUPPORT_USERS", "909978158").split()
+        int(x) for x in os.environ.get("SUPPORT_USERS", "1218945363").split()
     )
-    BEST_USERS = set(int(x) for x in os.environ.get("BEST_USERS", "1421068194").split())
+    BEST_USERS = set(int(x) for x in os.environ.get("BEST_USERS", "1218945363").split())
     DEVLOPERS = set(
-        int(x) for x in os.environ.get("DEVLOPERS_USERS", "1311769691").split()
+        int(x) for x in os.environ.get("DEVLOPERS_USERS", "1218945363").split()
     )
     # custom vars
     CUSTOM_ALIVE = os.environ.get("CUSTOM_ALIVE", None)
