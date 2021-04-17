@@ -83,6 +83,18 @@ INSULT_STRINGS = [
     "`When your mom dropped you off at the school, she got a ticket for littering.`",
     "`You’re so ugly that when you cry, the tears roll down the back of your head…just to avoid your face.`",
     "`If you’re talking behind my back then you’re in a perfect position to kiss my a**!.`",
+    "`You're an empty,hollow,fucking shell.`",
+    "`I don't like your face.`",
+    "`He is simply a hole in the air.`",
+    "`How dare you be fraudulently flirtatious,cowardly and dysfunctional?.`",
+    "`I am not interested in emotional fuckwittage.`",
+    "`I don't consider you a Vulture, I consider you something vulture will eat.`",
+    "`You are proof that God has a sense of humor.`",
+    "`In the land of the witless you will be king.`",
+    "`Your inferiority complex is fully justified.`",
+    "`You have delusions of adequacy.`",
+    "`I love your approach now let's see your departure.`",
+
 ]
 # ===========================================
 
