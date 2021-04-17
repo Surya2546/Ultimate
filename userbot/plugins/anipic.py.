@@ -18,10 +18,10 @@ async def _(event):
     await event.edit("anipic")
     animation_chars = [
         "Ultimate bring me the list of anime pictures you have",
-        "OMG **{DEFAULTUSER}** i don't really have much with me😥",
+        "OMG  i don't really have much with me😥",
         "I will always make you happy boss let me loot some from the net",
         "Connecting to INTERNET SERVER",
-        "NAME - {DEFAULTUSER}",
+        "NAME - {ULTIMATE}",
         "LOOTING SPEED - 280KB/S",
         "DONE🤝",
         "https://telegra.ph/file/88ca5566d336014defda9.jpg",
