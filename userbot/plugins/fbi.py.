@@ -25,9 +25,9 @@ async def _(event):
     await event.edit("Arresting")
 
       animation_chars = [
-        "**This is the Fbi ",
-        f"Federal bureau of investigation I know you're too dumb to know that**",
-        f"**You made a bad statement against MY BOSS ",
+        "**This is the Fbi**",
+        "Federal bureau of investigation I know you're too dumb to know that**",
+        "**You made a bad statement against MY BOSS ",
         "Anywayx the investigation has been done you can't understand...**",
         "**Under the bot rule decree 49 of 2021**",
         "**You're hereby charged to 200years of cleaning my Master foot**",
